@@ -13,7 +13,7 @@
 
   <title>YEAHAAAI</title>
 
-  <link rel="icon" type="image/x-icon, image/vnd.microsoft.icon" href="/HYlYH.github.io/favicon.ico">
+  <link rel="icon" type="image/jpeg" href="/HYlYH.github.io/favicon-32x32-next.jpg">
   <link rel="stylesheet" href="https://at.alicdn.com/t/font_1911880_c1nvbyezg17.css">
   <link href="https://unpkg.com/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
   <link href="/HYlYH.github.io/js/swiper/swiper@5.4.1.min.css" rel="stylesheet">
@@ -408,12 +408,12 @@
   <swiper v-cloak ref="mySwiper" :options="swiperOptions" @slideChangeTransitionEnd="slideChangeTransitionEnd">
     
       <swiper-slide>
-        <div class="item swiper-lazy" data-background="https://www.z4a.net/images/2023/09/14/1857bce0510646041.jpg" style="background-size: 300000px; 
+        <div class="item swiper-lazy" data-background="https://www.z4a.net/images/2023/09/15/111.jpg" style="background-size: 300000px; 
           background-position: left center;" style="position: relative;">
           <div class="swiper-bgmask" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;"></div>
             <div class="flag">
               
-              <div class="img-mask swiper-lazy swiper-default-bgImg" data-background="https://www.z4a.net/images/2023/09/14/1857bce0510646041.jpg" style="height: 100%; background-size: cover; 
+              <div class="img-mask swiper-lazy swiper-default-bgImg" data-background="https://www.z4a.net/images/2023/09/15/111.jpg" style="height: 100%; background-size: cover; 
                 background-position: center center;">
                 <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>   
               </div>
@@ -422,7 +422,7 @@
                   <div class="title ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">林间清风传佳话，夜耀繁星映海疆</div>
                   
                     <div class="ani animated default-excerpt" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">
-                      <vue-typed-js :strings="defaultDesc" :loop="defaultDescTypedLoop" :type-speed="50" :back-speed="20">
+                      <vue-typed-js :strings="defaultDesc" :loop="defaultDescTypedLoop" :type-speed="200" :back-speed="100">
                         <h1 class="typing"></h1>
                       </vue-typed-js>
                     </div>
@@ -475,7 +475,7 @@
   var loop = JSON.parse('true') ? false : JSON.parse('true');
   var effect = 'slide';
   var swiperLength = parseInt(document.querySelector(".swiper-length").innerText);
-  var defaultDesc = '欢迎来到我的小世界';
+  var defaultDesc = '2024作品合集';
   defaultDesc = defaultDesc.split(',');
   var defaultDescTypedLoop = JSON.parse('true');
   var vm = new Vue({
@@ -609,7 +609,7 @@
   transition: color 0.3s;
 }
 .flag-text .title a:hover {
-  color: rgba(66, 185, 133, 0.8);
+  color: rgba(0, 0, 0, 0.8);
 }
 .flag-text .excerpt {
   color: #eee;
@@ -886,8 +886,8 @@
   }
   .swiper-btn-color:hover,
   .swiper-btn-color2:hover {
-    background-color: rgba(66, 185, 133, 0.8);
-    border: 1px solid rgba(66, 185, 133, 0.8)!important;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8)!important;
   }
   .flag-text-btns {
     justify-content: center;
@@ -1018,10 +1018,10 @@
     <!-- 首页座右铭 -->
     
   <div class="motto">
-      <h3 class="motto-title">座右铭</h3>
+      <h3 class="motto-title">我是谁？</h3>
       <div class="motto-content">
         <p>
-          沉淀后我愿意做个温暖的人，有自己的喜好，有自己的原则，有自己的信仰，不急功近利，不浮夸轻薄。宠辱不惊，淡定安逸，心静如水，不忘初心，方得始终。——凌茜  
+          我是一名动态设计师，对于动态设计领域强烈的探索、追求精神使我迈向这个深渊，无法自拔  
         </p> 
       </div>
   </div>
@@ -1460,8 +1460,8 @@
         <div class="webinfo-item">
           <div>最后活动时间：</div>
           
-            <div id="last-update" style="display: none;">Thu Sep 14 2023 18:31:58 GMT+0800 (中国标准时间)</div>
-            <div id="last-update-show">2023-09-14 日</div>
+            <div id="last-update" style="display: none;">Fri Sep 15 2023 10:46:55 GMT+0800 (中国标准时间)</div>
+            <div id="last-update-show">2023-09-15 日</div>
           
         </div>
         
@@ -1511,7 +1511,7 @@
           try {
             document.getElementById('last-update-show').innerHTML = timeago(new Date(lastUpDate));
           } catch (error) {
-            document.getElementById('last-update-show').innerHTML = '2023-09-14 日';
+            document.getElementById('last-update-show').innerHTML = '2023-09-15 日';
           }
         </script>
         
@@ -1557,7 +1557,7 @@
       if (isDark) {
         this.FISH_COLOR = '#222'; // 暗黑色，有时间把这整成一个变量
       } else {
-        this.FISH_COLOR = '' || 'rgba(66, 185, 133, 0.8)';
+        this.FISH_COLOR = '' || 'rgba(0, 0, 0, 0.8)';
       }
     },
     setParameters: function () {
@@ -1708,7 +1708,7 @@
       
         
           <div class="footer-copyright">
-            <p>Copyright © 2019 - 2020 <a target="_blank" rel="noopener" href="https://github.com/yuang01">yuang01</a> | Powered by <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/">Hexo</a> | Theme <a target="_blank" rel="noopener" href="https://github.com/yuang01/theme">Bamboo</a> </p>
+            <p>Copyright © 2019 - 2024   此网站版权最终解释权为YEAHI所有   欢迎您的下次预览 </p>
 
           </div>
         
